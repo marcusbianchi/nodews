@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 silly mapToRegistry name async
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'async',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   name: 'async',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/async
+9 silly mapToRegistry name node-opcua
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node-opcua',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'node-opcua',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node-opcua
+14 verbose request uri https://registry.npmjs.org/node-opcua
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 09:36:26
+17 verbose request id 6f4f253afdebea7b
+18 http request GET https://registry.npmjs.org/node-opcua
+19 verbose request uri https://registry.npmjs.org/async
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 09:36:26
+22 verbose etag "EW9K40QOYVD2AQH2YDEDD78QF"
+23 http request GET https://registry.npmjs.org/async
+24 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+25 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+26 info attempt registry request try #2 at 09:36:37
+27 http request GET https://registry.npmjs.org/node-opcua
+28 info attempt registry request try #2 at 09:36:37
+29 verbose etag "EW9K40QOYVD2AQH2YDEDD78QF"
+30 http request GET https://registry.npmjs.org/async
+31 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+32 info retry will retry, error on last attempt: Error: self signed certificate in certificate chain
+33 info attempt registry request try #3 at 09:37:37
+34 http request GET https://registry.npmjs.org/node-opcua
+35 info attempt registry request try #3 at 09:37:37
+36 verbose etag "EW9K40QOYVD2AQH2YDEDD78QF"
+37 http request GET https://registry.npmjs.org/async
+38 silly get cb [ 304, undefined ]
+39 verbose etag https://registry.npmjs.org/async from cache
+40 verbose get saving async to C:\Users\marcuss.SPI\AppData\Roaming\npm-cache\registry.npmjs.org\async\.cache.json
+41 verbose correctMkdir C:\Users\marcuss.SPI\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+42 verbose stack Error: self signed certificate in certificate chain
+42 verbose stack     at Error (native)
+42 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1022:38)
+42 verbose stack     at emitNone (events.js:67:13)
+42 verbose stack     at TLSSocket.emit (events.js:166:7)
+42 verbose stack     at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:586:8)
+42 verbose stack     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:428:38)
+43 verbose cwd C:\Users\marcuss.SPI\NodeWorkspace\ninterlevel
+44 error Windows_NT 6.3.9600
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+46 error node v4.5.0
+47 error npm  v2.15.9
+48 error code SELF_SIGNED_CERT_IN_CHAIN
+49 error self signed certificate in certificate chain
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

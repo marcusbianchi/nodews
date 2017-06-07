@@ -1,0 +1,168 @@
+{
+	"deviceList": [117,118,119,121,125,128,134,136,137,138,139,141,148,149,154,155,158,159,161,188,193,194,197,200,201,203,48,49,50,59,62,64,81,82,166],
+	"signals": [{
+		"name": "RSSI",
+		"signalType": "unique",
+		"registerNumber": 204,
+		"bitSize": 16,
+		"scale": 1,
+		"twosComplement":true
+	}, {
+			"signalType": "batch",
+			"startRegister": 0,
+			"endRegister": 48,
+			"divisions": [{
+					"name": "Active Energy Consumption, Ph 1",
+					"registerNumber": 0,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Active Energy Consumption, Ph 2",
+					"registerNumber": 2,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Active Energy Consumption, Ph 3",
+					"registerNumber": 4,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Active Energy Consumption SUM",
+					"registerNumber": 6,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Reactive Energy Consumption, Ph 1",
+					"registerNumber": 8,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Reactive Energy Consumption, Ph 2",
+					"registerNumber": 10,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Reactive Energy Consumption, Ph 3",
+					"registerNumber": 12,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Reactive Energy Consumption SUM",
+					"registerNumber": 14,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Apparent Energy Consumption, Ph 1",
+					"registerNumber": 16,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Apparent Energy Consumption, Ph 2",
+					"registerNumber": 18,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Apparent Energy Consumption, Ph 3",
+					"registerNumber": 20,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Apparent Energy Consumption SUM",
+					"registerNumber": 22,
+					"bitSize": 32,
+					"scale": 25
+				}, {
+					"name": "Instant Active Energy,Phase 1",
+					"registerNumber": 31,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Active Energy,Phase 2",
+					"registerNumber": 32,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Active Energy,Phase 3",
+					"registerNumber": 33,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Active Energy,Phase SUM",
+					"registerNumber": 34,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Reactive Energy,Phase 1",
+					"registerNumber": 35,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Reactive Energy,Phase 2",
+					"registerNumber": 36,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Reactive Energy,Phase 3",
+					"registerNumber": 37,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Reactive Energy,Phase SUM",
+					"registerNumber": 38,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Apparent Energy,Phase 1",
+					"registerNumber": 39,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Apparent Energy,Phase 2",
+					"registerNumber": 40,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Apparent Energy,Phase 3",
+					"registerNumber": 41,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Apparent Energy,Phase SUM",
+					"registerNumber": 42,
+					"bitSize": 16,
+					"scale": 3.125
+				}, {
+					"name": "Instant Max Current,Phase 1",
+					"registerNumber": 43,
+					"bitSize": 16,
+					"scale": 0.167
+				}, {
+					"name": "Instant Max Current,Phase 2",
+					"registerNumber": 44,
+					"bitSize": 16,
+					"scale": 0.167
+				}, {
+					"name": "Instant Max Current,Phase 3",
+					"registerNumber": 45,
+					"bitSize": 16,
+					"scale": 0.167
+				}, {
+					"name": "Instant Max Voltage,Phase 1",
+					"registerNumber": 46,
+					"bitSize": 16,
+					"scale": 0.04
+				}, {
+					"name": "Instant Max Voltage,Phase 2",
+					"registerNumber": 47,
+					"bitSize": 16,
+					"scale": 0.04
+				}, {
+					"name": "Instant Max Voltage,Phase 3",
+					"registerNumber": 48,
+					"bitSize": 16,
+					"scale": 0.04
+				}
+			]
+		}
+	]
+}

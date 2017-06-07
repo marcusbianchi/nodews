@@ -1,0 +1,38 @@
+{
+	equipmentID: 1,
+	equipmentName: "ordenhadeira",
+	companyID: 1,
+	status: "active",
+	description: "value",
+	model: "value",
+	brand: "value",
+	group: "linha1",
+	timeRange: "1000",
+	triggers: [{
+		eventType: "producao-inicio",
+		multiplier: "1",
+		scale: "",
+
+		offset: "",
+		tag: "PROD331",
+		operator: "==",
+		value: "1"
+
+	}, {
+		eventType: "producao-quantidade",
+		multiplier: "1",
+		scale: "0.1",
+		unid: "un",
+		offset: "0.0",
+		tag: "PQT331",
+		operator: ">",
+		value: "0.1"
+		tag: "QTD331",
+		operator: ">",
+		value: "0"
+	}],
+	additionalProperties: [{
+		propertyName: "value",
+		propertyValue: "value"
+	}]
+}

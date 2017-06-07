@@ -1,0 +1,87 @@
+{
+	"companyID": "70",
+	"userID": "user4@francisco.com",
+	"status": "inactive",
+	"pass": "20",
+	"endPoints": [{
+		"url": "/datacapturingservice",
+		"environment": "homolog",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "POST"
+		}]
+	}, {
+		"url": "/datacapturingservice",
+		"environment": "prod",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "POST"
+		}]
+	}, {
+		"url": "/configservice",
+		"environment": "homolog",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "POST"
+		}]
+	}, {
+		"url": "/configservice",
+		"environment": "prod",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "POST"
+		}]
+	}, {
+		"url": "/machine",
+		"environment": "prod",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "PUT"
+		}, {
+			"permission": "DELETE"
+		}]
+	}, {
+		"url": "/machine",
+		"environment": "homolog",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "PUT"
+		}, {
+			"permission": "DELETE"
+		}]
+	}, {
+		"url": "/event",
+		"environment": "prod",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "PUT"
+		}, {
+			"permission": "DELETE"
+		}]
+	}, {
+		"url": "/event",
+		"environment": "homolog",
+		"companyID": "70",
+		"permissions": [{
+			"permission": "GET"
+		}, {
+			"permission": "PUT"
+		}, {
+			"permission": "DELETE"
+		}]
+	}]
+}

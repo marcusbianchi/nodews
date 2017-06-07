@@ -1,0 +1,23 @@
+{
+	"machineApi": {
+		"dynamo": {
+			"region": "us-west-2",
+			"endpoint": "https://dynamodb.us-west-2.amazonaws.com",
+			"table": "Machines",
+			"primaryKeys": ["equipmentID", "companyID", "info"]
+		}
+	},
+	"rawdataapi": {
+		"s3": {
+			"endpoint": "https://s3-us-west-2.amazonaws.com",
+			"rawbucket": "rawdatajson",
+			"processbucket": "processdatajson"
+		}
+	},
+	"eventapi": {
+		"s3": {
+			"endpoint": "https://s3-us-west-2.amazonaws.com",
+			"eventbucket": "eventjson"
+		}
+	}
+}

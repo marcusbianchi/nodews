@@ -1,0 +1,28 @@
+{
+	"companyID": 1,
+	"accountID": 584945,
+	"dataSourceID": 77878,
+	"registeredEquipment": [{
+		"equipmentID": 7777,
+		"measuredDataList": [{
+			"tag": "TAG 1",
+			"value": 111,
+			"timeStampTicks": 222
+		}, {
+			"tag": "TAG 2",
+			"value": 333,
+			"timeStampTicks": 444
+		}]
+	}, {
+		"equipmentID": 8888,
+		"measuredDataList": [{
+			"tag": "TAG 5",
+			"value": 555,
+			"timeStampTicks": 666
+		}, {
+			"tag": "TAG 6",
+			"value": 777,
+			"timeStampTicks": 888
+		}]
+	}]
+}

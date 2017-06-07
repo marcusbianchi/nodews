@@ -1,0 +1,15 @@
+{
+	"enableServiceSend": false,
+	"serviceAPI": "http://localhost:8080",
+	"retryTime": 60000,
+	"comPortPath": "COM3",
+	"comPortConfig": {
+		"baudRate": 115200,
+		"dataBits": 8,
+		"stopBits": 1,
+		"parity": "none"
+	},
+	"readRate": 10000,
+	"endPacketTimeout": 300,
+	"responseTimeout": 500
+}

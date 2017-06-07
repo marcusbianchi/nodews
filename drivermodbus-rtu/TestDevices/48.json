@@ -1,0 +1,76 @@
+{
+	"deviceID": 48,
+	"signals": [{
+		"name": "RSSI",
+		"signalType": "unique",
+		"registerNumber": 204,
+		"bitSize": 16,
+		"scale": 1,
+		"twosComplement":true
+	}, {
+		"signalType": "batch",
+		"startRegister": 0,
+		"endRegister": 23,
+		"divisions": [{
+			"name": "Active Energy Consumption, Ph 1",
+			"registerNumber": 0,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Active Energy Consumption, Ph 2",
+			"registerNumber": 2,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Active Energy Consumption, Ph 3",
+			"registerNumber": 4,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Active Energy Consumption SUM",
+			"registerNumber": 6,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Reactive Energy Consumption, Ph 1",
+			"registerNumber": 8,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Reactive Energy Consumption, Ph 2",
+			"registerNumber": 10,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Reactive Energy Consumption, Ph 3",
+			"registerNumber": 12,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Reactive Energy Consumption SUM",
+			"registerNumber": 14,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Apparent Energy Consumption, Ph 1",
+			"registerNumber": 16,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Apparent Energy Consumption, Ph 2",
+			"registerNumber": 18,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Apparent Energy Consumption, Ph 3",
+			"registerNumber": 20,
+			"bitSize": 32,
+			"scale": 3.125
+		}, {
+			"name": "Apparent Energy Consumption SUM",
+			"registerNumber": 22,
+			"bitSize": 32,
+			"scale": 3.125
+		}]
+	}]
+}

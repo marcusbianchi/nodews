@@ -1,0 +1,631 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ti",
+				"tile_config"
+			],
+			[
+				"gen",
+				"generate_dashboard"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"con",
+				"dashboard_config"
+			],
+			[
+				"co",
+				"conact_data"
+			],
+			[
+				"pre",
+				"predict_params"
+			],
+			[
+				"data",
+				"data_Train"
+			],
+			[
+				"fi",
+				"find_position"
+			],
+			[
+				"pos",
+				"pos_measurements"
+			],
+			[
+				"a",
+				"alpha"
+			],
+			[
+				"X",
+				"X_train"
+			],
+			[
+				"lr",
+				"LinearRegression"
+			],
+			[
+				"df",
+				"df_init"
+			],
+			[
+				"tem",
+				"temp1"
+			],
+			[
+				"c",
+				"changedpos"
+			],
+			[
+				"po",
+				"positions_df"
+			],
+			[
+				"fore",
+				"forestmodel_csv_object"
+			],
+			[
+				"fo",
+				"forestmodel_csv_object"
+			],
+			[
+				"X_t",
+				"X_test"
+			],
+			[
+				"y",
+				"y_train"
+			],
+			[
+				"tra",
+				"train_test_split"
+			],
+			[
+				"tes",
+				"test_df"
+			],
+			[
+				"tran",
+				"train_data"
+			],
+			[
+				"train",
+				"train_data"
+			],
+			[
+				"for",
+				"forest"
+			],
+			[
+				"median",
+				"median_age"
+			],
+			[
+				"me",
+				"median_age"
+			],
+			[
+				"medi",
+				"median_ages"
+			],
+			[
+				"fare",
+				"fare_bracket_size"
+			],
+			[
+				"nu",
+				"number_of_price_brackets"
+			],
+			[
+				"number",
+				"number_of_price_brackets"
+			],
+			[
+				"wri",
+				"writerow"
+			],
+			[
+				"su",
+				"survival_table"
+			],
+			[
+				"wo",
+				"women_only_stats"
+			],
+			[
+				"n",
+				"number_of_price_brackets"
+			],
+			[
+				"num",
+				"number_of_classes"
+			],
+			[
+				"fa",
+				"fare_bracket_size"
+			],
+			[
+				"pred",
+				"prediction_file_object"
+			],
+			[
+				"pr",
+				"proportin_men_survived"
+			],
+			[
+				"w",
+				"women_only_stats"
+			],
+			[
+				"csv",
+				"csv_file_object"
+			],
+			[
+				"func",
+				"funcReads"
+			],
+			[
+				"device",
+				"deviceID"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"sign",
+				"signalRead"
+			],
+			[
+				"si",
+				"signalRead"
+			],
+			[
+				"regi",
+				"registerlLength"
+			],
+			[
+				"bu",
+				"bufferIndex"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"Mod",
+				"ModBusRead"
+			],
+			[
+				"M",
+				"ModBusRead"
+			],
+			[
+				"deve",
+				"deviceList"
+			],
+			[
+				"cp",
+				"comPortPath"
+			],
+			[
+				"f",
+				"fun\tFunction"
+			],
+			[
+				"Send",
+				"SendToAPI"
+			],
+			[
+				"read",
+				"readModbusRTU"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 6482,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 183.0,
+		"last_filter": "rmeove",
+		"selected_items":
+		[
+			[
+				"rmeove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ident",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: un",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 468.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/marcuss.SPI/NodeWorkspace/cumminsengine"
+	],
+	"file_history":
+	[
+		"/C/Users/marcuss.SPI/PythonWorkspace/Danone/app.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Danone/MachineLearningModule/machine_learn.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Danone/MachineLearningModule/__init__.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Danone/machine_learn.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Danone/data_generator.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Danone/data/data.csv",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Kaggle/Titanic/Python0.3/titanic.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Kaggle/Titanic/Python0.1/titanic.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Kaggle/Titanic/Python0.2/titanic.py",
+		"/C/Users/marcuss.SPI/PythonWorkspace/Kaggle/Titanic/Python0.1 - Copy/titanic.py",
+		"/C/Users/marcuss.SPI/AppData/Roaming/Sublime Text 3/Packages/Python Flake8 Lint/Flake8Lint.sublime-settings",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/config.json",
+		"/C/Users/marcuss.SPI/Desktop/Angular/Aula5/index.html",
+		"/C/Users/marcuss.SPI/Desktop/Angular/Aula4/index.html",
+		"/C/Users/marcuss.SPI/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1474460973249.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1474456743574.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1474456536832.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1474456282206.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1474456145535.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1473960895176.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/70.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/106.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1475691537769.json",
+		"/C/Users/marcuss.SPI/Desktop/Angular/Aula2/index.html",
+		"/C/Users/marcuss.SPI/Desktop/Angular/Aula3/index.html",
+		"/C/Users/marcuss.SPI/Desktop/Angular/dAula1/js/exam1.js",
+		"/C/Users/marcuss.SPI/Desktop/Angular/dAula1/angulartu.html",
+		"/C/Users/marcuss.SPI/PythonWorkspace/LearningPythonUdacity/test.py",
+		"/C/Users/marcuss.SPI/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/CRKII0CG/1000000820004.xml",
+		"/C/Users/marcuss.SPI/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/C/Users/marcuss.SPI/NodeWorkspace/mockDashboard/database/1.json",
+		"/C/Users/marcuss.SPI/PythonWorkspace/LokiServer/LokiTest/ebs-LokiServer/Schemas/thing-schema.json",
+		"/C/Users/marcuss.SPI/PythonWorkspace/LokiServer/LokiTest/ebs-LokiServer/Schemas/datacapture-schema.json",
+		"/C/Users/marcuss.SPI/PythonWorkspace/LokiServer/LokiTest/ebs-LokiServer/Schemas/measurementevent-schema.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/mockDashboard/index.js",
+		"/C/Users/marcuss.SPI/NodeWorkspace/mockDashboard/package.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/166.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/132.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/124.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/1.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/159.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/80.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/79.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/78.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/77.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/76.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/51.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/47.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/43.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/30.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/28.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/161.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/82.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/168.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/188.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/193.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/194.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/197.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/200.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/201.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/203.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/48.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/49.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/50.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/59.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/62.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/64.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/81.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/106.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/110.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/114.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/56.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/61.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/63.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/65.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/67.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/69.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/70.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/71.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/72.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/73.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/74.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/75.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/117.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/118.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/119.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/121.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/125.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/128.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/134.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/136.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/137.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/138.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/139.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/141.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/148.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/149.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/154.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/155.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/158.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/85.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/147.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/146.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/135.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Modules/modbusRead.js",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/37.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/38.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/44.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/45.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/52.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/60.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/105.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/107.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/115.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/120.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/126.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/127.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/129.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/130.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/36.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/35.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/33.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/216.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/209.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/208.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/180.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/172.json"
+	],
+	"find":
+	{
+		"height": 59.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"queryparams",
+			"console.log",
+			"subsamples",
+			"np",
+			"test_df",
+			"print",
+			"for",
+			"ng-style",
+			"ng-styke",
+			");\n",
+			"37",
+			"172",
+			"info",
+			"startRegister",
+			"registerlLength",
+			"callback",
+			"');",
+			");"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3700,
+								3700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cumminseng_proj.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

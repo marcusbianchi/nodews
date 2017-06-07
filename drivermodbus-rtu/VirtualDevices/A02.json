@@ -1,0 +1,6 @@
+{
+    "deviceID": "A02",
+    "deviceList": { "a": "80", "b": "147","c":"167" },
+    "equation": "a - b - c",
+    "processSignals": ["Active Energy Consumption SUM","Reactive Energy Consumption SUM","Apparent Energy Consumption SUM"]
+}

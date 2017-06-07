@@ -1,0 +1,75 @@
+{
+    "tileId": 0,
+    "show": true,
+    "tileType": “image ", 
+    "tileWidth": 30,
+    "tileHeight": 20,
+    "detailsLink": "“,“
+    imageSource ": “data/img.png"
+    "x": 1,
+    "y": 1,
+    "mergeComponents": [12, 11, 10, 2, 1],
+    "dataSource": {
+        "url": "qwdqwd",
+        "path": "qwdqwd",
+        "queryParameters": [{
+            "parameter": "",
+            "value": "qwdqw",
+            "param": "qwdqwd"
+        }]
+    }
+    "colorSource": {
+        "url": "qwdqw",
+        "path": "qwddwd",
+        “fontColorPath ": "
+        qwddwd ",
+        "queryParameters": [{
+            "parameter": "",
+            "value": "qwd",
+            "param": "qwd"
+        }]
+    },
+    "emphasysSource": {
+        "url": "12d12d",
+        "path": "2dd2",
+        "queryParameters": [{
+            "parameter": "",
+            "value": "qwdqw",
+            "param": "qwdqwd"
+        }]
+    },
+    "fixedValueCommon": "Meta ",
+    "fixedValueUnique": "Anual",
+    "textProperties": {
+        "bold": "bold",
+        "italic": "italic",
+        "rotate": "rotate-vertical-text",
+        "fontSize": 10,
+        "tileFontColor": "#4216d6"
+    },
+    "fixedColor": "#ec2d2d", // Se não usar colorSource
+    "tileContentType": "rail",
+    "rail": "852",
+    "border ": {
+        "style ": “solid ",
+        "color ": “black ",
+        "witdh": “2 px "
+    },
+    "rowQuantity": 15,
+    "gridHeaders": [{
+        "headerContent ": "Header",
+        "width": "2",
+        "backgroundColor": "#ff0000“,
+        "textProperties": {
+            "bold": "bold",
+            "italic": "italic",
+            "rotate": "rotate-vertical-text",
+            "fontSize": 10,
+            "fontColor": "#4216d6"
+        }
+    }],
+
+}
+
+
+}

@@ -1,0 +1,20 @@
+{
+  "name": "drivermodbus-rtu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.4.3",
+    "mathjs": "3.10.0",
+    "modbus-rtu": "0.1.1",
+    "nedb": "1.8.0",
+    "request": "2.74.0",
+    "serialport": "4.0.1",
+    "winston": "2.2.0"
+  }
+}
