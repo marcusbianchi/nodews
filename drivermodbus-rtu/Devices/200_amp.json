@@ -72,36 +72,6 @@
 			"bitSize": 32,
 			"scale": 5
 		}, {
-			"name": "Energy Counter Timestamp, Min/Sec",
-			"registerNumber": 24,
-			"bitSize": 16,
-			"scale": 1
-		}, {
-			"name": "Energy Counter Timestamp, Day/Hour",
-			"registerNumber": 25,
-			"bitSize": 16,
-			"scale": 1
-		}, {
-			"name": "Energy Counter Timestamp, Year/Month",
-			"registerNumber": 26,
-			"bitSize": 16,
-			"scale": 1
-		}, {
-			"name": "Energy Instant Timestamp, Min/Sec",
-			"registerNumber": 28,
-			"bitSize": 16,
-			"scale": 1
-		}, {
-			"name": "Energy Instant Timestamp, Day/Hour",
-			"registerNumber": 29,
-			"bitSize": 16,
-			"scale": 1
-		}, {
-			"name": "Energy Instant Timestamp, Year/Month",
-			"registerNumber": 30,
-			"bitSize": 16,
-			"scale": 1
-		},{
 			"name": "Instant Active Energy,Phase 1",
 			"registerNumber": 31,
 			"bitSize": 16,
@@ -191,6 +161,36 @@
 			"registerNumber": 48,
 			"bitSize": 16,
 			"scale": 0.04
-		}]
+		}, {
+"name": "Energy Counter Timestamp, Min/Sec",
+"registerNumber": 24,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Counter Timestamp, Day/Hour",
+"registerNumber": 25,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Counter Timestamp, Year/Month",
+"registerNumber": 26,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Instant Timestamp, Min/Sec",
+"registerNumber": 28,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Instant Timestamp, Day/Hour",
+"registerNumber": 29,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Instant Timestamp, Year/Month",
+"registerNumber": 30,
+"bitSize": 16,
+"scale": 1
+}]
 	}]
 }

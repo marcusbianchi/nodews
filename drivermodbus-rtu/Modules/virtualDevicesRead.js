@@ -6,11 +6,11 @@ var math = require('mathjs');
 var virtualDevices = [];
 var winston = require('winston');
 var bufferData = require('./bufferData');
-
+ 
 var db = {};
 var readRate = 300000;
 var numberofdevices = 0;
-
+ 
 var readVirtualDevice = function(fileName) {
     fs.readFile('./VirtualDevices/' + fileName, 'utf8', function(error, data) {
         if (error) {
@@ -36,24 +36,24 @@ var readFromVirtualDevicesFolder = function() {
         };
     });
 }
-
+ 
 var readController = function() {
     readVirtualReadings()
 }
-
+ 
 var readVirtualReadings = function() {
     for (var i = virtualDevices.length - 1; i >= 0; i--) {
         var devices = [];
-
+ 
         for (var key in virtualDevices[i].deviceList) {
             var value = virtualDevices[i].deviceList[key];
             devices.push(parseInt(value));
         }
         Processreading(JSON.stringify(virtualDevices[i]), JSON.stringify(devices));
-
+ 
     }
 }
-
+ 
 var Processreading = function(exVirtualDevice, exDevices) {
     var devices = [];
     var virtualDevice = {};
@@ -64,7 +64,7 @@ var Processreading = function(exVirtualDevice, exDevices) {
     var offset = new Date().getTimezoneOffset();
     var utc_date = new Date();
     var currDate = utc_date.setMinutes(utc_date.getMinutes() - offset);
-
+ 
     var reads = [];
     db.find({ dataSourceID: { $in: devices } }, function(err, docs) {
         if (docs.length == devices.length) {
@@ -80,7 +80,7 @@ var Processreading = function(exVirtualDevice, exDevices) {
                 var signalRead = {
                     "tag": signals[j],
                     "value": result,
-                    "timeStampTicks": (currDate.getTime() * 10000) + 621355968000000000 //Ticks .net
+                    "timeStampTicks": (currDate * 10000) + 621355968000000000 //Ticks .net
                 }
                 reads.push(signalRead);
             }
@@ -93,13 +93,13 @@ var Processreading = function(exVirtualDevice, exDevices) {
             bufferData.bufferData(JSON.parse(dcJson));
         } else {
             winston.error("Error " + virtualDevice.deviceID);
-
+ 
         }
     });
 }
-
-
-
+ 
+ 
+ 
 function functiontofindIndexByKeyValue(arraytosearch, key, valuetosearch) {
     for (var i = 0; i < arraytosearch.length; i++) {
         if (arraytosearch[i][key] == valuetosearch) {
@@ -108,30 +108,30 @@ function functiontofindIndexByKeyValue(arraytosearch, key, valuetosearch) {
     }
     return null;
 }
-
-
+ 
+ 
 return {
-
+ 
     startController: function(newdb) {
         db = newdb;
-	   virtualDevices = [];
-
-		readFromVirtualDevicesFolder();
+                  virtualDevices = [];
+ 
+                              readFromVirtualDevicesFolder();
         readController();
     }
 }
 }
-
+ 
 var virtualDevicesRead = new VirtualDevicesRead();
 virtualDevicesRead.VirtualDevicesRead = VirtualDevicesRead;
 module.exports = virtualDevicesRead;
-
+ 
 //------------------TESTE MODULO_________________________________________
 /*var Datastore = require('nedb'),
     db = new Datastore();
 var mes1 = JSON.parse(fs.readFileSync('mes1.json', 'utf8'));
 var mes2 = JSON.parse(fs.readFileSync('mes2.json', 'utf8'));
-
+ 
 db.insert([mes2, mes1], function(err, newDocs) {
     readFromVirtualDevicesFolder();
     setParams(1000, db);

@@ -1,0 +1,14 @@
+{
+    "deviceToWrite": 1,
+    "valueToWrite": 250,
+    "comPortPath": "COM3",
+    "comPortConfig": {
+        "baudRate": 115200,
+        "dataBits": 8,
+        "stopBits": 1,
+        "parity": "none"
+    },
+    "readRate": 300000,
+    "endPacketTimeout": 200,
+    "responseTimeout": 2000
+}

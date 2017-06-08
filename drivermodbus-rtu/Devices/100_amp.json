@@ -1,5 +1,5 @@
 {
-	"deviceList": [106,110,114,56,61,63,65,67,69,70,71,72,73,74,75],
+	"deviceList": [106,110,114,56,61,63,65,67,97,70,71,72,73,74,75],
 	"signals": [{
 		"name": "RSSI",
 		"signalType": "unique",
@@ -161,6 +161,36 @@
 			"registerNumber": 48,
 			"bitSize": 16,
 			"scale": 0.04
-		}]
+		}, {
+"name": "Energy Counter Timestamp, Min/Sec",
+"registerNumber": 24,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Counter Timestamp, Day/Hour",
+"registerNumber": 25,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Counter Timestamp, Year/Month",
+"registerNumber": 26,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Instant Timestamp, Min/Sec",
+"registerNumber": 28,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Instant Timestamp, Day/Hour",
+"registerNumber": 29,
+"bitSize": 16,
+"scale": 1
+}, {
+"name": "Energy Instant Timestamp, Year/Month",
+"registerNumber": 30,
+"bitSize": 16,
+"scale": 1
+}]
 	}]
 }

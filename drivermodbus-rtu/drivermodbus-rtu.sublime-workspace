@@ -4,18 +4,120 @@
 		"selected_items":
 		[
 			[
+				"devi",
+				"deviceMeas"
+			],
+			[
 				"de",
-				"defaultTime"
+				"devices"
+			],
+			[
+				"v",
+				"virtualDevices"
+			],
+			[
+				"new",
+				"newDocs"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"con",
+				"contents"
+			],
+			[
+				"func",
+				"funcReads"
+			],
+			[
+				"device",
+				"deviceID"
+			],
+			[
+				"sign",
+				"signalRead"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"si",
+				"signalRead"
+			],
+			[
+				"regi",
+				"registerlLength"
+			],
+			[
+				"bu",
+				"bufferIndex"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"Mod",
+				"ModBusRead"
+			],
+			[
+				"M",
+				"ModBusRead"
+			],
+			[
+				"deve",
+				"deviceList"
+			],
+			[
+				"cp",
+				"comPortPath"
+			],
+			[
+				"f",
+				"fun\tFunction"
+			],
+			[
+				"Send",
+				"SendToAPI"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"read",
+				"readModbusRTU"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Modules/modbusWrite.js",
+			"file": "config.json",
 			"settings":
 			{
-				"buffer_size": 1189,
+				"buffer_size": 286,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "VirtualDevices/A01.json",
+			"settings":
+			{
+				"buffer_size": 222,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Modules/virtualDevicesRead.js",
+			"settings":
+			{
+				"buffer_size": 4413,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -24,15 +126,7 @@
 			"file": "Modules/modbusRead.js",
 			"settings":
 			{
-				"buffer_size": 7948,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 1449,
+				"buffer_size": 10249,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -45,30 +139,39 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 129.0,
-		"last_filter": "remove",
+		"height": 183.0,
+		"last_filter": "json",
 		"selected_items":
 		[
 			[
-				"remove",
-				"Package Control: Remove Package"
+				"json",
+				"JSON Reindent: reindent file or selection"
 			],
 			[
-				"install",
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json re",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"Package Control: in",
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
+				"pak",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 527.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 176.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -82,27 +185,147 @@
 	},
 	"expanded_folders":
 	[
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu",
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Modules"
+		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Sourcecode",
+		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Sourcecode/Modules"
 	],
 	"file_history":
 	[
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Modules/modbusRead.js",
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/index.js",
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Modules/modbusWrite.js",
-		"/C/Users/marcuss/AppData/Roaming/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
-		"/C/Users/marcuss/AppData/Roaming/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Devices/2000_amp.json",
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Devices/200_amp.json",
-		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Devices/100_amp.json"
+		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Sourcecode/index.js",
+		"/C/_OD/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Sourcecode/Modules/virtualDeviceRead.js",
+		"/C/Users/marcuss.SPI/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/One Drive/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Sourcecode/Devices/1000_amp.json",
+		"/C/One Drive/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Sourcecode/Modules/modbusRead.js",
+		"/C/One Drive/OneDrive - Spi Engenharia de Automacao Ltda Epp/NodeWS/drivermodbus-rtu/Sourcecode/Modules/virtualDeviceRead",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/1.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/105.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/106.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/107.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/110.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/114.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/115.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/117.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/118.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/119.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/12.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/120.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/121.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/124.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/125.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/126.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/127.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/128.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/129.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/130.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/132.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/134.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/135.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/136.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/137.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/138.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/139.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/14.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/141.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/146.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/147.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/148.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/149.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/154.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/155.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/158.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/159.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/161.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/166.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/167.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/168.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/170.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/172.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/180.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/197.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/203.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/38.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/188.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/193.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/194.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/200.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/201.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/208.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/209.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/216.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/28.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/30.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/33.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/35.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/36.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/37.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/43.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/44.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/45.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/47.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/48.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/49.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/50.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/51.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/52.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/56.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/59.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/60.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/61.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/62.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/63.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/64.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/65.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/67.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/69.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/70.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/71.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/72.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/73.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/74.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/75.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/76.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/77.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/78.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/79.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/80.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/81.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/82.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Devices/85.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1481740158558.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/sendToAPILog.json",
+		"/C/Users/marcuss.SPI/AppData/Roaming/Sublime Text 3/Packages/JSON Reindent/JSONReindent.sublime-settings",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1481740141329.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1481739693322.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1481739673479.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/Modules/modbusRead.js",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/buffer/1481734534322.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/drivermodbus-rtu.sublime-project",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Sourcecode/config.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/mockDashboard/database/1.json",
+		"/C/Users/marcuss.SPI/PythonWorkspace/LokiServer/LokiTest/ebs-LokiServer/Schemas/thing-schema.json",
+		"/C/Users/marcuss.SPI/PythonWorkspace/LokiServer/LokiTest/ebs-LokiServer/Schemas/datacapture-schema.json",
+		"/C/Users/marcuss.SPI/PythonWorkspace/LokiServer/LokiTest/ebs-LokiServer/Schemas/measurementevent-schema.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/mockDashboard/index.js",
+		"/C/Users/marcuss.SPI/NodeWorkspace/mockDashboard/package.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/166.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/132.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/124.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/1.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/159.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/80.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/79.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/78.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/77.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/76.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/51.json",
+		"/C/Users/marcuss.SPI/NodeWorkspace/drivermodbus-rtu/Devices/47.json"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 117.0,
 		"where_history":
 		[
 		]
@@ -112,22 +335,36 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"Erro",
-			"ModbusWrite",
+			"getTime",
+			"       ",
+			" \n",
+			";\n",
+			"console.log",
+			" ",
+			"scale",
+			"204",
+			"scale",
+			"buffer.s",
 			"readDeviceModbusRTU",
 			"readAllDevices",
-			"serialPort",
-			"master",
-			" var master = \"\";",
-			"master",
-			"7,"
+			"16",
+			");\n",
+			"37",
+			"172",
+			"info",
+			"startRegister",
+			"registerlLength",
+			"callback",
+			"');",
+			");"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"_"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -138,62 +375,62 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Modules/modbusWrite.js",
+					"file": "config.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1189,
+						"buffer_size": 286,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								957,
-								998
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Modules/modbusRead.js",
+					"file": "VirtualDevices/A01.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7948,
+						"buffer_size": 222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6162,
-								6211
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3720.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -201,28 +438,59 @@
 				},
 				{
 					"buffer": 2,
-					"file": "index.js",
+					"file": "Modules/virtualDevicesRead.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1449,
+						"buffer_size": 4413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1172,
-								1172
+								1902,
+								2051
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Modules/modbusRead.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5751,
+								5751
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2640.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -237,7 +505,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -262,6 +530,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -308,7 +580,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 321.0,
+	"side_bar_width": 291.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

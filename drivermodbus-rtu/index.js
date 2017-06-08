@@ -6,13 +6,16 @@ var winston = require('winston');
 var Datastore = require('nedb'),
 	db = new Datastore();
 var SerialPort = require('serialport');
+var modbus = require('modbus-rtu');
+
 //Configure Winston to save only errors to a log file
 winston.add(winston.transports.File, {
 	filename: '../Log/driverlog.txt',
 	json: false,
 	level: 'error'
 });
-
+winston.remove(winston.transports.Console);
+winston.add(winston.transports.Console, {'timestamp':true});
 
 var config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 var devicesConfig = fs.readdirSync('./Devices/');
@@ -29,13 +32,14 @@ for (var i = 0; i < devicesConfig.length; i++) {
 	} else
 		deviceList.push(JSON.parse(JSON.stringify(obj)));
 }
-var serialPort = new SerialPort("/" + comPortPath, comPortConfig);
+var serialPort = new SerialPort("/" + config.comPortPath, config.comPortConfig);
 master = new modbus.Master(serialPort);
+startRead();
+if (config.enableServiceSend) {
+ 	sendToAPI.startController(config.retryTime, config.serviceAPI);
+ }
 
-modbusWrite.writeTimers(deviceList, master, 20, null);
-
-// modbusRead.startRead(deviceList, config.comPortPath, config.comPortConfig,
-// 	config.readRate, config.endPacketTimeout, config.responseTimeout, db,master);
-// if (config.enableServiceSend) {
-// 	sendToAPI.startController(config.retryTime, config.serviceAPI);
-// }
+function startRead(){
+	modbusRead.startRead(deviceList, config.comPortPath, config.comPortConfig,
+	config.readRate, config.endPacketTimeout, config.responseTimeout, db,master)
+}

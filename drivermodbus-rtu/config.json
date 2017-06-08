@@ -1,6 +1,6 @@
 {
-	"enableServiceSend": false,
-	"serviceAPI": "http://localhost:8080",
+	"enableServiceSend": true,
+	"serviceAPI": "http://10.198.12.249:8042/api/MeasuredDataObjects",
 	"retryTime": 60000,
 	"comPortPath": "COM3",
 	"comPortConfig": {
@@ -9,7 +9,7 @@
 		"stopBits": 1,
 		"parity": "none"
 	},
-	"readRate": 10000,
-	"endPacketTimeout": 300,
-	"responseTimeout": 500
+	"readRate": 300000,
+	"endPacketTimeout": 200,
+	"responseTimeout": 2000
 }
