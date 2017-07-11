@@ -3,7 +3,7 @@ module.exports = function(app) {
     console.log("Recebida Requisição");
     res.send("Ok.");
   });
-  apo.post("/pagamentos/pagamento", function(req, res) {
+  app.post("/pagamentos/pagamento", function(req, res) {
     var pagamento = req.body;
     console.log(pagamento);
     res.send("Ok.");
