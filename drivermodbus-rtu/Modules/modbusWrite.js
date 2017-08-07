@@ -1,56 +1,87 @@
+var winston = require("winston");
+
 function ModbusWrite() {
-	//Importation of the Modules needed to process the information
-	var SerialPort = require('serialport');
-	var modbus = require('modbus-rtu');
-	var Promise = require("bluebird");
-	var winston = require('winston');
-	var constants = require('modbus-rtu/constants');
+  //Importation of the Modules needed to process the information
 
+  var devices = [];
+  var devicesToWritePassword = [];
+  var devicesToWriteInterval = [];
+  var completedDevices = [];
+  var master = {};
+  var writePassword = true;
 
-	function writeReadInterval(deviceList, master, defaultTime, callback) {
-		promises = [];
-		for (var i = 0; i < deviceList.length; i++) {
-			promises.push(writeReadIntervalToDevice(deviceList[i].deviceID, master, defaultTime));			
-			}
+  function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
 
-			Promise.all(promises).then(function(results) {		
-			
-			}).catch(function(err) {
-				winston.error(err)
-			}).then(function() {
-				
-				setTimeout(function(){
-					winston.info('CALLBACK');
-			callback();
-			}, 20*60 * 1000);
-				
-			});
-		}
+  var writeDevicePassWord = function(deviceId) {
+    master.writeMultipleRegisters(deviceId, 298, [4660]);
+    master.writeMultipleRegisters(deviceId, 349, [7100]);
+    console.log("write password " + deviceId);
+    devicesToWriteInterval.push(deviceId);
+  };
 
-		function writeReadIntervalToDevice(deviceID, master, defaultTime) {
-			this.deviceID = deviceID;
-			winston.info(' Atualizando Tempo De leitura Para ' + deviceID);
-			return master.writeSingleRegister(deviceID, 297, defaultTime,retryCount=3).then(function() {
-				winston.info('Tempo De leitura Para ' + deviceID+' Atualizado com Sucesso');
-				return 'Tempo De leitura Para ' + deviceID+' Atualizado com Sucesso';
-			}, function(err
-			) {
-					winston.error('Tempo De leitura Para ' + deviceID+' não Atualizado com Sucesso');
-				return 'Tempo De leitura Para ' + deviceID+' não Atualizado com Sucesso'
-			});
-		}
+  var writeDeviceInterval = function(deviceId) {
+    master.writeMultipleRegisters(deviceId, 297, [240]);
+    master.writeMultipleRegisters(deviceId, 349, [7200]);
+    console.log("write interval " + deviceId);
+    completedDevices.push(deviceId);
+  };
 
-		return {
-			writeTimers: function(deviceList, master, defaultTime, callback) {
-				master._options.responseTimeout = 60000;	
-				master._options.endPacketTimeout = 1000;
-				master._options.queueTimeout = 200;
-				
-				writeReadInterval(deviceList, master, defaultTime, callback);
-			}
-		}
-	}
+  var writeDevicesPassword = function() {
+    while (devicesToWritePassword.length != 0) {
+      var element = devicesToWritePassword.pop();
+      writeDevicePassWord(element);
+    }
+  };
 
-	var modbusWrite = new ModbusWrite();
-	modbusWrite.ModbusWrite = ModbusWrite;
-	module.exports = modbusWrite;
+  var writeDevicesInterval = function() {
+    while (devicesToWriteInterval.length != 0) {
+      var element = devicesToWriteInterval.pop();
+      writeDeviceInterval(element);
+    }
+  };
+
+  return {
+    writeDevices: function(master, deviceList) {
+      for (var index = 0; index < deviceList.length; index++) {
+        var element = deviceList[index];
+        devices.push(element.deviceID);
+      }
+      devices = deviceList;
+      master = master;
+
+      function writer() {
+        if (devices.length === 0) {
+          devices = completedDevices;
+          completedDevices = [];
+        }
+        for (var index = 0; index < 5; index++) {
+          removeIndex = getRandomInt(0, devices.length - 1);
+          var element = devices[removeIndex];
+          if (element !== undefined) {
+            devicesToWritePassword.push(element);
+            devices.splice(removeIndex, 1);
+          }
+        }
+
+        if (writePassword) {
+          writeDevicesPassword();
+          writePassword = false;
+        } else {
+          writeDevicesInterval();
+          writePassword = true;
+        }
+
+        setTimeout(writer, 10000);
+      }
+      writer();
+    }
+  };
+}
+
+var modbusWrite = new ModbusWrite();
+modbusWrite.ModbusWrite = modbusWrite;
+module.exports = modbusWrite;

@@ -1,0 +1,131 @@
+{
+  "dataSourceID": 48,
+  "MeasureDataList": [
+    { "tag": "RSSI", "value": -25, "timeStampTicks": 636371778592180000 },
+    {
+      "tag": "Active Energy Consumption, Ph 1",
+      "value": 360424450,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Active Energy Consumption, Ph 2",
+      "value": 370063000,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Active Energy Consumption, Ph 3",
+      "value": 357554725,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Active Energy Consumption SUM",
+      "value": 1088042175,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Reactive Energy Consumption, Ph 1",
+      "value": 34006425,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Reactive Energy Consumption, Ph 2",
+      "value": 11143025,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Reactive Energy Consumption, Ph 3",
+      "value": 66836850,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Reactive Energy Consumption SUM",
+      "value": 111986300,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Apparent Energy Consumption, Ph 1",
+      "value": 401020250,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Apparent Energy Consumption, Ph 2",
+      "value": 436291750,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Apparent Energy Consumption, Ph 3",
+      "value": 429470975,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Apparent Energy Consumption SUM",
+      "value": 1266782975,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Energy Counter Timestamp, Min",
+      "value": 42,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Energy Counter Timestamp, Sec",
+      "value": 40,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Energy Counter Timestamp, Day",
+      "value": 2,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Energy Counter Timestamp, Hour",
+      "value": 0,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Energy Counter Timestamp, Year",
+      "value": 70,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Energy Counter Timestamp, Month",
+      "value": 1,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Instant Max Current,Phase 1",
+      "value": 499.99800000000005,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Instant Max Current,Phase 2",
+      "value": 545.255,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Instant Max Current,Phase 3",
+      "value": 553.9390000000001,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Instant Max Voltage,Phase 1",
+      "value": 258.32,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Instant Max Voltage,Phase 2",
+      "value": 261.04,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "Instant Max Voltage,Phase 3",
+      "value": 261.6,
+      "timeStampTicks": 636371778592180000
+    },
+    {
+      "tag": "MeasurementTimeStamp",
+      "value": "1970-02-02T02:42:40.000Z",
+      "timeStampTicks": 636371778592180000
+    }
+  ]
+}

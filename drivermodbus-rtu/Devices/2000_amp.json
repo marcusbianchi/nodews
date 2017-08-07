@@ -1,198 +1,192 @@
 {
-	"deviceList": [124,132,28,30,43,47,51,76,77,78,79,80],
-	"signals": [{
-		"name": "RSSI",
-		"signalType": "unique",
-		"registerNumber": 204,
-		"bitSize": 16,
-		"scale": 1,
-		"twosComplement":true
-	}, {
-			"signalType": "batch",
-			"startRegister": 0,
-			"endRegister": 48,
-			"divisions": [{
-					"name": "Active Energy Consumption, Ph 1",
-					"registerNumber": 0,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Active Energy Consumption, Ph 2",
-					"registerNumber": 2,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Active Energy Consumption, Ph 3",
-					"registerNumber": 4,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Active Energy Consumption SUM",
-					"registerNumber": 6,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Reactive Energy Consumption, Ph 1",
-					"registerNumber": 8,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Reactive Energy Consumption, Ph 2",
-					"registerNumber": 10,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Reactive Energy Consumption, Ph 3",
-					"registerNumber": 12,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Reactive Energy Consumption SUM",
-					"registerNumber": 14,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Apparent Energy Consumption, Ph 1",
-					"registerNumber": 16,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Apparent Energy Consumption, Ph 2",
-					"registerNumber": 18,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Apparent Energy Consumption, Ph 3",
-					"registerNumber": 20,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Apparent Energy Consumption SUM",
-					"registerNumber": 22,
-					"bitSize": 32,
-					"scale": 50
-				}, {
-					"name": "Instant Active Energy,Phase 1",
-					"registerNumber": 31,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Active Energy,Phase 2",
-					"registerNumber": 32,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Active Energy,Phase 3",
-					"registerNumber": 33,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Active Energy,Phase SUM",
-					"registerNumber": 34,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Reactive Energy,Phase 1",
-					"registerNumber": 35,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Reactive Energy,Phase 2",
-					"registerNumber": 36,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Reactive Energy,Phase 3",
-					"registerNumber": 37,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Reactive Energy,Phase SUM",
-					"registerNumber": 38,
-					"bitSize": 16,
-					"scale": 3.125
-				}, {
-					"name": "Instant Apparent Energy,Phase 1",
-					"registerNumber": 39,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Apparent Energy,Phase 2",
-					"registerNumber": 40,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Apparent Energy,Phase 3",
-					"registerNumber": 41,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Apparent Energy,Phase SUM",
-					"registerNumber": 42,
-					"bitSize": 16,
-					"scale": 6.25
-				}, {
-					"name": "Instant Max Current,Phase 1",
-					"registerNumber": 43,
-					"bitSize": 16,
-					"scale": 0.333
-				}, {
-					"name": "Instant Max Current,Phase 2",
-					"registerNumber": 44,
-					"bitSize": 16,
-					"scale": 0.333
-				}, {
-					"name": "Instant Max Current,Phase 3",
-					"registerNumber": 45,
-					"bitSize": 16,
-					"scale": 0.333
-				}, {
-					"name": "Instant Max Voltage,Phase 1",
-					"registerNumber": 46,
-					"bitSize": 16,
-					"scale": 0.04
-				}, {
-					"name": "Instant Max Voltage,Phase 2",
-					"registerNumber": 47,
-					"bitSize": 16,
-					"scale": 0.04
-				}, {
-					"name": "Instant Max Voltage,Phase 3",
-					"registerNumber": 48,
-					"bitSize": 16,
-					"scale": 0.04
-				}, {
-"name": "Energy Counter Timestamp, Min/Sec",
-"registerNumber": 24,
-"bitSize": 16,
-"scale": 1
-}, {
-"name": "Energy Counter Timestamp, Day/Hour",
-"registerNumber": 25,
-"bitSize": 16,
-"scale": 1
-}, {
-"name": "Energy Counter Timestamp, Year/Month",
-"registerNumber": 26,
-"bitSize": 16,
-"scale": 1
-}, {
-"name": "Energy Instant Timestamp, Min/Sec",
-"registerNumber": 28,
-"bitSize": 16,
-"scale": 1
-}, {
-"name": "Energy Instant Timestamp, Day/Hour",
-"registerNumber": 29,
-"bitSize": 16,
-"scale": 1
-}, {
-"name": "Energy Instant Timestamp, Year/Month",
-"registerNumber": 30,
-"bitSize": 16,
-"scale": 1
-}
-			]
-		}
-	]
+    "deviceList": [124, 132, 28, 30, 43, 47, 51, 76, 77, 78, 79, 80],
+    "signals": [{
+            "name": "RSSI",
+            "signalType": "unique",
+            "registerNumber": 204,
+            "bitSize": 16,
+            "scale": 1,
+            "twosComplement": true
+        },
+        {
+            "signalType": "batch",
+            "startRegister": 0,
+            "endRegister": 26,
+            "divisions": [{
+                    "name": "Active Energy Consumption, Ph 1",
+                    "registerNumber": 0,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Active Energy Consumption, Ph 2",
+                    "registerNumber": 2,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Active Energy Consumption, Ph 3",
+                    "registerNumber": 4,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Active Energy Consumption SUM",
+                    "registerNumber": 6,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Reactive Energy Consumption, Ph 1",
+                    "registerNumber": 8,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Reactive Energy Consumption, Ph 2",
+                    "registerNumber": 10,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Reactive Energy Consumption, Ph 3",
+                    "registerNumber": 12,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Reactive Energy Consumption SUM",
+                    "registerNumber": 14,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": true
+                },
+                {
+                    "name": "Apparent Energy Consumption, Ph 1",
+                    "registerNumber": 16,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": false
+                },
+                {
+                    "name": "Apparent Energy Consumption, Ph 2",
+                    "registerNumber": 18,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": false
+                },
+                {
+                    "name": "Apparent Energy Consumption, Ph 3",
+                    "registerNumber": 20,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": false
+                },
+                {
+                    "name": "Apparent Energy Consumption SUM",
+                    "registerNumber": 22,
+                    "bitSize": 32,
+                    "scale": 50,
+                    "signed": false
+                },
+                {
+                    "name": "Energy Counter Timestamp, Min",
+                    "registerNumber": 24,
+                    "bitSize": 8,
+                    "scale": 1,
+                    "signed": false
+                },
+                {
+                    "name": "Energy Counter Timestamp, Sec",
+                    "registerNumber": 24,
+                    "bitSize": 8,
+                    "scale": 1,
+                    "signed": false
+                },
+                {
+                    "name": "Energy Counter Timestamp, Day",
+                    "registerNumber": 25,
+                    "bitSize": 8,
+                    "scale": 1,
+                    "signed": false
+                },
+                {
+                    "name": "Energy Counter Timestamp, Hour",
+                    "registerNumber": 25,
+                    "bitSize": 8,
+                    "scale": 1,
+                    "signed": false
+                },
+                {
+                    "name": "Energy Counter Timestamp, Year",
+                    "registerNumber": 26,
+                    "bitSize": 8,
+                    "scale": 1,
+                    "signed": false
+                },
+                {
+                    "name": "Energy Counter Timestamp, Month",
+                    "registerNumber": 26,
+                    "bitSize": 8,
+                    "scale": 1,
+                    "signed": false
+                }
+            ]
+        },
+        {
+            "signalType": "batch",
+            "startRegister": 43,
+            "endRegister": 48,
+            "divisions": [{
+                    "name": "Instant Max Current,Phase 1",
+                    "registerNumber": 43,
+                    "bitSize": 16,
+                    "scale": 0.333,
+                    "signed": false
+                },
+                {
+                    "name": "Instant Max Current,Phase 2",
+                    "registerNumber": 44,
+                    "bitSize": 16,
+                    "scale": 0.333,
+                    "signed": false
+                },
+                {
+                    "name": "Instant Max Current,Phase 3",
+                    "registerNumber": 45,
+                    "bitSize": 16,
+                    "scale": 0.333,
+                    "signed": false
+                },
+                {
+                    "name": "Instant Max Voltage,Phase 1",
+                    "registerNumber": 46,
+                    "bitSize": 16,
+                    "scale": 0.04,
+                    "signed": false
+                },
+                {
+                    "name": "Instant Max Voltage,Phase 2",
+                    "registerNumber": 47,
+                    "bitSize": 16,
+                    "scale": 0.04,
+                    "signed": false
+                },
+                {
+                    "name": "Instant Max Voltage,Phase 3",
+                    "registerNumber": 48,
+                    "bitSize": 16,
+                    "scale": 0.04,
+                    "signed": false
+                }
+            ]
+        }
+    ]
 }

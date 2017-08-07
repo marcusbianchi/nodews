@@ -1,15 +1,19 @@
 {
-	"enableServiceSend": true,
-	"serviceAPI": "http://10.198.12.249:8042/api/MeasuredDataObjects",
-	"retryTime": 60000,
-	"comPortPath": "COM3",
-	"comPortConfig": {
-		"baudRate": 115200,
-		"dataBits": 8,
-		"stopBits": 1,
-		"parity": "none"
-	},
-	"readRate": 300000,
-	"endPacketTimeout": 200,
-	"responseTimeout": 2000
+    "enableServiceSend": true,
+    "serviceAPI": "http://10.198.12.249:8042/api/MeasuredDataObjects",
+    "retryTime": 60000,
+    "comPortPath": "COM5",
+    "comPortConfig": {
+        "baudRate": 115200,
+        "dataBits": 8,
+        "stopBits": 1,
+        "parity": "none"
+    },
+    "readRate": 900000,
+    "responseTimeout": 1000,
+    "processSignals": [
+        "Active Energy Consumption SUM",
+        "Reactive Energy Consumption SUM",
+        "Apparent Energy Consumption SUM"
+    ]
 }

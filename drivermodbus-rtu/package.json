@@ -11,10 +11,10 @@
   "dependencies": {
     "bluebird": "^3.4.3",
     "mathjs": "^3.10.0",
-    "modbus-rtu": "^0.1.1",
+    "modbus-rtu": "^0.2.1",
     "nedb": "^1.8.0",
-    "request": "^2.74.0",
-    "serialport": "^4.0.1",
+    "request": "^2.81.0",
+    "serialport": "^5.0.0-beta8",
     "winston": "^2.2.0"
   }
 }
